@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instant Feedback Quiz</title>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    #feedback.fade-in {
+      animation: fadeIn 0.4s ease forwards;
+      opacity: 0;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    label.option-label {
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      will-change: transform, background-color;
+      border-radius: 0.375rem;
+      display: flex;
+      align-items: center;
+      padding: 0.25rem 0.5rem;
+      cursor: pointer;
+    }
+    label.option-label:hover {
+      background-color: #e0e7ff;
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center p-6">
+
+  <h1 class="text-3xl font-bold mb-4 text-indigo-700">Instant Feedback Quiz</h1>
+
+  <!-- Progress Bar -->
+  <div class="w-full max-w-3xl mb-4">
+    <div class="w-full bg-gray-300 rounded-full h-4">
+      <div id="progressBar" class="bg-indigo-600 h-4 rounded-full transition-all duration-300 ease-in-out" style="width: 0%;"></div>
+    </div>
+    <p class="mt-2 text-sm text-gray-600 text-right" id="progressText">0 / 0</p>
+  </div>
+
+  <!-- Quiz Container -->
+  <div id="quizContainer" class="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl mb-4"></div>
+
+  <!-- Feedback -->
+  <div id="feedback" class="hidden mt-4 max-w-3xl w-full bg-white p-4 rounded shadow-md"></div>
+
+  <!-- Buttons -->
+  <button
+    id="submitBtn"
+    class="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded shadow transition-colors"
+    disabled
+  >
+    Submit Answer
+  </button>
+
+  <button
+    id="nextBtn"
+    class="hidden mt-4 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded shadow transition-colors"
+  >
+    Next Question
+  </button>
+
+  <!-- Results -->
+  <div id="finalScore" class="hidden mt-8 max-w-3xl w-full bg-white p-6 rounded-lg shadow-md text-center"></div>
+
+  <script>
+    const questions = <%- JSON.stringify(questions) %>;
+    let currentIndex = 0;
+    let correctCount = 0;
+
+    const quizContainer = document.getElementById('quizContainer');
+    const feedbackDiv = document.getElementById('feedback');
+    const submitBtn = document.getElementById('submitBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const progressBar = document.getElementById('progressBar');
+    const progressText = document.getElementById('progressText');
+    const finalScore = document.getElementById('finalScore');
+
+    function updateProgress() {
+      const total = questions.length;
+      const progress = ((currentIndex) / total) * 100;
+      progressBar.style.width = `${progress}%`;
+      progressText.textContent = `${currentIndex} / ${total}`;
+    }
+
+    function renderQuestion(index) {
+      const q = questions[index];
+      feedbackDiv.classList.add('hidden');
+      nextBtn.classList.add('hidden');
+      submitBtn.classList.remove('hidden');
+      submitBtn.disabled = true;
+
+      quizContainer.innerHTML = `
+        <fieldset class="mb-4">
+          <legend class="text-lg font-semibold mb-3">${index + 1}. ${q.question_text}</legend>
+          ${q.options.map(opt => `
+            <label class="option-label mb-2">
+              <input type="radio" name="question_${q.id}" value="${opt.id}" class="form-radio text-indigo-600 mr-2">
+              <span class="text-gray-800">${opt.option_text}</span>
+            </label>
+          `).join('')}
+        </fieldset>
+      `;
+
+      document.querySelectorAll(`input[name="question_${q.id}"]`).forEach(input => {
+        input.addEventListener('change', () => {
+          submitBtn.disabled = false;
+        });
+      });
+
+      updateProgress();
+    }
+
+    submitBtn.addEventListener('click', async () => {
+      const q = questions[currentIndex];
+      const selected = document.querySelector(`input[name="question_${q.id}"]:checked`);
+      if (!selected) return;
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Checking...';
+
+      const res = await fetch('/submit-single', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          questionId: q.id,
+          selectedOptionId: selected.value
+        })
+      });
+
+      const result = await res.json();
+
+      if (result.isCorrect) correctCount++;
+
+      feedbackDiv.innerHTML = `
+        <p class="font-semibold">
+          Your answer is 
+          <span class="${result.isCorrect ? 'text-green-700' : 'text-red-700'}">
+            ${result.isCorrect ? 'Correct ✅' : 'Wrong ❌'}
+          </span>
+        </p>
+        <p class="mt-2 italic text-gray-700">Explanation: ${result.explanation}</p>
+      `;
+
+      feedbackDiv.classList.remove('hidden');
+      feedbackDiv.classList.remove('fade-in');
+      void feedbackDiv.offsetWidth;
+      feedbackDiv.classList.add('fade-in');
+
+      submitBtn.classList.add('hidden');
+      nextBtn.classList.remove('hidden');
+      submitBtn.textContent = 'Submit Answer';
+    });
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex++;
+      if (currentIndex < questions.length) {
+        renderQuestion(currentIndex);
+      } else {
+        showFinalResults();
+      }
+    });
+
+    function showFinalResults() {
+      quizContainer.innerHTML = '';
+      feedbackDiv.classList.add('hidden');
+      nextBtn.classList.add('hidden');
+      progressBar.style.width = '100%';
+      progressText.textContent = `${questions.length} / ${questions.length}`;
+
+      finalScore.classList.remove('hidden');
+      finalScore.innerHTML = `
+        <h2 class="text-2xl font-bold text-indigo-700 mb-2">🎉 Quiz Complete!</h2>
+        <p class="text-lg text-gray-800">You got <span class="font-bold text-green-700">${correctCount}</span> out of <span class="font-bold">${questions.length}</span> correct.</p>
+      `;
+    }
+
+    // Start the quiz
+    renderQuestion(currentIndex);
+  </script>
+</body>
+</html>

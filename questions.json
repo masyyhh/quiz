@@ -1,0 +1,1102 @@
+[
+  {
+    "question_text": "What is the main goal of User-Centered Design (UCD)?",
+    "explanation": "User-Centered Design (UCD) focuses on involving real users throughout the design \nprocess to ensure the product meets their needs and expectations.",
+    "options": [
+      {
+        "text": "Promote visual creativity",
+        "is_correct": true
+      },
+      {
+        "text": "Involve users in the design process",
+        "is_correct": false
+      },
+      {
+        "text": "Reduce cost",
+        "is_correct": false
+      },
+      {
+        "text": "Design for aesthetics",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which principle states that design should be consistent and predictable?",
+    "explanation": "Consistency ensures similar elements behave the same way throughout the interface, \nhelping users form accurate mental models. \nAffordance is about suggesting how an element should be used (e.g., buttons look \nclickable).",
+    "options": [
+      {
+        "text": "Visibility",
+        "is_correct": false
+      },
+      {
+        "text": "Affordance",
+        "is_correct": true
+      },
+      {
+        "text": "Consistency",
+        "is_correct": false
+      },
+      {
+        "text": "Feedback",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Feedback in UI design refers to:",
+    "explanation": "In UI/UX, feedback is the immediate visual, auditory, or tactile response a system gives \nto inform the user that an action has been registered — for example, a button changing \ncolor when clicked or showing a success message.",
+    "options": [
+      {
+        "text": "Colors used in a button",
+        "is_correct": true
+      },
+      {
+        "text": "A user leaving a review",
+        "is_correct": false
+      },
+      {
+        "text": "System response to user actions",
+        "is_correct": false
+      },
+      {
+        "text": "Product ratings",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Affordance refers to:",
+    "explanation": "Affordance refers to the design of an element suggesting how it should be used. \nFor example, a raised button affords clicking, while a slider affords dragging. It’s about \nvisual clues.",
+    "options": [
+      {
+        "text": "Low-cost design",
+        "is_correct": true
+      },
+      {
+        "text": "Suggesting possible actions",
+        "is_correct": false
+      },
+      {
+        "text": "User satisfaction",
+        "is_correct": false
+      },
+      {
+        "text": "Interface responsiveness",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which of the following is a usability heuristic?",
+    "explanation": "This heuristic, from Nielsen’s 10 usability heuristics, encourages interfaces that \nminimize memory load by making options visible—users should recognize options \nrather than recall them from memory (e.g., dropdown menus vs. typing commands).",
+    "options": [
+      {
+        "text": "Data compression",
+        "is_correct": true
+      },
+      {
+        "text": "Recognition over recall",
+        "is_correct": false
+      },
+      {
+        "text": "Vertical scaling",
+        "is_correct": false
+      },
+      {
+        "text": "Encryption",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Error prevention means:",
+    "explanation": "Error prevention involves proactively designing systems that minimize the chances of \nuser errors — for example, disabling a \"Submit\" button until all required fields are filled \nor using confirmation prompts before destructive actions.",
+    "options": [
+      {
+        "text": "Not showing errors",
+        "is_correct": true
+      },
+      {
+        "text": "Hiding all buttons",
+        "is_correct": false
+      },
+      {
+        "text": "Designing to reduce user mistakes",
+        "is_correct": false
+      },
+      {
+        "text": "Removing confirmation messages",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "A system that adapts to different screen sizes is called:",
+    "explanation": "Responsive design adjusts layout and elements dynamically to fit various screen sizes \nand orientations (like mobile, tablet, and desktop) — improving usability and \naccessibility across devices.",
+    "options": [
+      {
+        "text": "Reactive",
+        "is_correct": false
+      },
+      {
+        "text": "Flexible",
+        "is_correct": false
+      },
+      {
+        "text": "Responsive",
+        "is_correct": true
+      },
+      {
+        "text": "Dynamic",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which UX principle ensures important elements are easy to find?",
+    "explanation": "The visibility principle ensures that key elements, actions, and options are clearly \nvisible to users. For example, placing a prominent \"Buy Now\" button where users expect \nit improves usability and task success.",
+    "options": [
+      {
+        "text": "Visibility",
+        "is_correct": true
+      },
+      {
+        "text": "Affordance",
+        "is_correct": false
+      },
+      {
+        "text": "Consistency",
+        "is_correct": false
+      },
+      {
+        "text": "Constraint",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "An effective error message should be:",
+    "explanation": "A good error message tells users what went wrong, why it happened, and how to fix \nit—without placing blame. For example: \n“ Invalid email. Please enter a valid format like name@example.com.”",
+    "options": [
+      {
+        "text": "Technical",
+        "is_correct": true
+      },
+      {
+        "text": "Hidden",
+        "is_correct": false
+      },
+      {
+        "text": "Blaming the user",
+        "is_correct": false
+      },
+      {
+        "text": "Clear and helpful",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which term describes how a design guides user behavior naturally?",
+    "explanation": "A signifier is a visual cue that indicates how an element can be used — like underlined \ntext implying a hyperlink or a handle suggesting a slider. \nConstraints, on the other hand, limit how users can interact with an interface (e.g., \ngraying out unavailable options).",
+    "options": [
+      {
+        "text": "Constraint",
+        "is_correct": true
+      },
+      {
+        "text": "Signifier",
+        "is_correct": false
+      },
+      {
+        "text": "Obstruction",
+        "is_correct": false
+      },
+      {
+        "text": "Indicator",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What does WCAG stand for?",
+    "explanation": "WCAG is the global standard for making web content more accessible to people with \ndisabilities. It provides guidelines on text alternatives, contrast, navigation, \nkeyboard access, and more.",
+    "options": [
+      {
+        "text": "Web Code and Graphic",
+        "is_correct": true
+      },
+      {
+        "text": "Web Content Accessibility Guidelines",
+        "is_correct": false
+      },
+      {
+        "text": "Web Compliance and Guidance",
+        "is_correct": false
+      },
+      {
+        "text": "Website Compliance Advisory Group",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which of the following improves accessibility?",
+    "explanation": "Alt text (alternative text) describes images for screen readers and users who can’t view \ngraphics. It’s essential for visually impaired users and improves overall accessibility \nand SEO.",
+    "options": [
+      {
+        "text": "Small fonts",
+        "is_correct": true
+      },
+      {
+        "text": "Low color contrast",
+        "is_correct": false
+      },
+      {
+        "text": "Alt text for images",
+        "is_correct": false
+      },
+      {
+        "text": "Background videos",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "ARIA labels are used to:",
+    "explanation": "ARIA (Accessible Rich Internet Applications) labels provide additional semantic \ninformation to assistive technologies like screen readers, helping users understand the \nrole and state of interactive elements.",
+    "options": [
+      {
+        "text": "Change themes",
+        "is_correct": true
+      },
+      {
+        "text": "Add animations",
+        "is_correct": false
+      },
+      {
+        "text": "Improve accessibility for screen readers",
+        "is_correct": false
+      },
+      {
+        "text": "Apply responsive layout",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Inclusive design means:",
+    "explanation": "Inclusive design aims to create products usable by people with diverse abilities, ages, \nlanguages, cultures, and technical skills, ensuring broad accessibility and usability.",
+    "options": [
+      {
+        "text": "Designing only for advanced users",
+        "is_correct": true
+      },
+      {
+        "text": "Designing for specific user groups",
+        "is_correct": false
+      },
+      {
+        "text": "Designing for as many people as possible",
+        "is_correct": false
+      },
+      {
+        "text": "Designing with minimal elements",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which of the following is NOT an assistive technology?",
+    "explanation": "Assistive technologies help users with disabilities interact with devices. \n• Screen readers and Braille displays are assistive. \n• Keyboards can be considered assistive for people unable to use a mouse. \n• A touchpad is a standard input device, not specifically assistive.",
+    "options": [
+      {
+        "text": "Screen reader",
+        "is_correct": true
+      },
+      {
+        "text": "Braille display",
+        "is_correct": false
+      },
+      {
+        "text": "Keyboard",
+        "is_correct": false
+      },
+      {
+        "text": "Touchpad",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Low-fidelity prototypes are usually:",
+    "explanation": "Low-fidelity prototypes are simple, often hand-drawn or basic wireframes used early in \nthe design process to explore ideas quickly without focusing on visual details or \ninteractivity.",
+    "options": [
+      {
+        "text": "Interactive and functional",
+        "is_correct": true
+      },
+      {
+        "text": "Code-based",
+        "is_correct": false
+      },
+      {
+        "text": "Paper sketches or wireframes",
+        "is_correct": false
+      },
+      {
+        "text": "High-resolution designs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which tool is commonly used for UI prototyping?",
+    "explanation": "Figma is a popular cloud-based design tool used for creating UI prototypes, wireframes, \nand interactive designs collaboratively.",
+    "options": [
+      {
+        "text": "SQL",
+        "is_correct": false
+      },
+      {
+        "text": "Figma",
+        "is_correct": true
+      },
+      {
+        "text": "Excel",
+        "is_correct": false
+      },
+      {
+        "text": "Postman",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "A clickable prototype simulates:",
+    "explanation": "Clickable prototypes allow users to interact with the design by simulating the navigation \nand flow of the final product without needing full backend functionality.",
+    "options": [
+      {
+        "text": "Server speed",
+        "is_correct": true
+      },
+      {
+        "text": "Interactions/navigation flow",
+        "is_correct": false
+      },
+      {
+        "text": "Final code logic",
+        "is_correct": false
+      },
+      {
+        "text": "Database connections",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which is a benefit of prototyping?",
+    "explanation": "Prototyping helps designers test ideas quickly and gather feedback from users and \nstakeholders before full development, saving time and cost.",
+    "options": [
+      {
+        "text": "Hides usability issues",
+        "is_correct": true
+      },
+      {
+        "text": "Reduces creativity",
+        "is_correct": false
+      },
+      {
+        "text": "Gathers early feedback",
+        "is_correct": false
+      },
+      {
+        "text": "Increases development cost",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "High-fidelity prototypes typically include:",
+    "explanation": "High-fidelity prototypes closely mimic the final product’s look and feel, including \ndetailed visuals and interactive elements, but may not include backend logic like \ndatabases.",
+    "options": [
+      {
+        "text": "Database logic",
+        "is_correct": true
+      },
+      {
+        "text": "System architecture",
+        "is_correct": false
+      },
+      {
+        "text": "Final UI layout and interactivity",
+        "is_correct": false
+      },
+      {
+        "text": "Placeholder content only",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which is NOT a phase in the interaction design lifecycle?",
+    "explanation": "The interaction design lifecycle focuses on understanding requirements, designing, \n\nprototyping, and evaluating. Coding is part of software development but not strictly a \nphase of the interaction design lifecycle.",
+    "options": [
+      {
+        "text": "Requirement gathering",
+        "is_correct": false
+      },
+      {
+        "text": "Coding",
+        "is_correct": true
+      },
+      {
+        "text": "Prototyping",
+        "is_correct": false
+      },
+      {
+        "text": "Evaluation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "A metaphor in interface design helps users:",
+    "explanation": "Interface metaphors use real-world concepts to help users understand and learn how \nto use digital interfaces more quickly by relating to something familiar.",
+    "options": [
+      {
+        "text": "Access code",
+        "is_correct": true
+      },
+      {
+        "text": "Learn faster through familiarity",
+        "is_correct": false
+      },
+      {
+        "text": "Visualize database",
+        "is_correct": false
+      },
+      {
+        "text": "Animate content",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which is an example of an interface metaphor?",
+    "explanation": "The trash bin icon is a classic interface metaphor representing a place where unwanted \nfiles are discarded, drawing on the physical world experience of throwing things in a \ntrash can.",
+    "options": [
+      {
+        "text": "Dropdown menu",
+        "is_correct": true
+      },
+      {
+        "text": "Toggle switch",
+        "is_correct": false
+      },
+      {
+        "text": "Trash bin icon for delete",
+        "is_correct": false
+      },
+      {
+        "text": "Pagination control",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What is the purpose of the evaluation phase?",
+    "explanation": "The evaluation phase involves testing prototypes with users, gathering feedback, \nidentifying usability issues, and refining the design before final deployment.",
+    "options": [
+      {
+        "text": "Deploy product",
+        "is_correct": true
+      },
+      {
+        "text": "Analyze errors only",
+        "is_correct": false
+      },
+      {
+        "text": "Measure usability and get feedback",
+        "is_correct": false
+      },
+      {
+        "text": "Add more features",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which is a quantitative research method?",
+    "explanation": "Heatmap analysis collects numerical data on where users click or scroll (quantitative). \nUser interviews and focus groups are qualitative methods focused on gathering \nopinions and experiences.",
+    "options": [
+      {
+        "text": "User interview",
+        "is_correct": true
+      },
+      {
+        "text": "Usability testing",
+        "is_correct": false
+      },
+      {
+        "text": "Heatmap analysis",
+        "is_correct": false
+      },
+      {
+        "text": "Focus group",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which metric evaluates user satisfaction?",
+    "explanation": "The Net Promoter Score (NPS) and System Usability Scale (SUS) are standardized \nmetrics used to measure user satisfaction and perceived usability of a product.",
+    "options": [
+      {
+        "text": "NPS or SUS score",
+        "is_correct": true
+      },
+      {
+        "text": "Load time",
+        "is_correct": false
+      },
+      {
+        "text": "Server response rate",
+        "is_correct": false
+      },
+      {
+        "text": "App installation count",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What is the goal of A/B testing?",
+    "explanation": "A/B testing involves presenting two different versions of a design to users and \nmeasuring which performs better based on key metrics like conversion or engagement.",
+    "options": [
+      {
+        "text": "Compare two versions to find the better one",
+        "is_correct": true
+      },
+      {
+        "text": "Add features",
+        "is_correct": false
+      },
+      {
+        "text": "Fix errors",
+        "is_correct": false
+      },
+      {
+        "text": "Test only visuals",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Think-aloud protocol helps to gather:",
+    "explanation": "The think-aloud protocol asks users to verbalize their thoughts as they interact with a \nsystem, providing rich qualitative insights into their experience and challenges.",
+    "options": [
+      {
+        "text": "Server metrics",
+        "is_correct": true
+      },
+      {
+        "text": "User behavior and thoughts while performing tasks",
+        "is_correct": false
+      },
+      {
+        "text": "Analytics only",
+        "is_correct": false
+      },
+      {
+        "text": "Sales conversions",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Personas are used in UX to:",
+    "explanation": "Personas are fictional but data-driven profiles that represent key user groups. They help \ndesigners keep real user needs and behaviors in focus throughout the design process.",
+    "options": [
+      {
+        "text": "Create security layers",
+        "is_correct": true
+      },
+      {
+        "text": "Represent typical users",
+        "is_correct": false
+      },
+      {
+        "text": "Build admin panels",
+        "is_correct": false
+      },
+      {
+        "text": "Manage databases",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Usability testing focuses on:",
+    "explanation": "Usability testing observes actual users as they interact with the product to identify \nusability issues and areas for improvement, ensuring the design meets user needs \neffectively.",
+    "options": [
+      {
+        "text": "Server speed",
+        "is_correct": true
+      },
+      {
+        "text": "Color theory",
+        "is_correct": false
+      },
+      {
+        "text": "Real user interaction with the system",
+        "is_correct": false
+      },
+      {
+        "text": "Performance testing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which design principle emphasizes reducing the user’s memory load?",
+    "explanation": "Recognition over recall reduces cognitive load by allowing users to recognize options \ninstead of memorizing information.",
+    "options": [
+      {
+        "text": "Visibility",
+        "is_correct": false
+      },
+      {
+        "text": "Recognition over recall",
+        "is_correct": true
+      },
+      {
+        "text": "Feedback",
+        "is_correct": false
+      },
+      {
+        "text": "Consistency",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What does ‘heuristic evaluation’ involve?",
+    "explanation": "Heuristic evaluation is a usability inspection where experts evaluate the interface based \non recognized usability principles.",
+    "options": [
+      {
+        "text": "Testing code efficiency",
+        "is_correct": true
+      },
+      {
+        "text": "Expert review of usability principles",
+        "is_correct": false
+      },
+      {
+        "text": "User survey",
+        "is_correct": false
+      },
+      {
+        "text": "Automated bug testing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which prototyping fidelity is best for quick concept validation?",
+    "explanation": "Low-fidelity prototypes are simple and fast to create, ideal for early feedback and \nconcept validation.",
+    "options": [
+      {
+        "text": "High-fidelity",
+        "is_correct": false
+      },
+      {
+        "text": "Medium-fidelity",
+        "is_correct": false
+      },
+      {
+        "text": "Low-fidelity",
+        "is_correct": true
+      },
+      {
+        "text": "Final product",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "The term ‘affordance’ was coined by:",
+    "explanation": "Donald Norman introduced the term to describe perceived and actual properties of an \nobject that determine how it could be used.",
+    "options": [
+      {
+        "text": "Donald Norman",
+        "is_correct": true
+      },
+      {
+        "text": "Jakob Nielsen",
+        "is_correct": false
+      },
+      {
+        "text": "Steve Jobs",
+        "is_correct": false
+      },
+      {
+        "text": "Alan Turing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What is the main advantage of responsive web design?",
+    "explanation": "Responsive design ensures the website adapts to various screen sizes, improving user \nexperience across devices.",
+    "options": [
+      {
+        "text": "Faster coding",
+        "is_correct": true
+      },
+      {
+        "text": "Works on all screen sizes",
+        "is_correct": false
+      },
+      {
+        "text": "Better graphics",
+        "is_correct": false
+      },
+      {
+        "text": "Advanced animations",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which UX research method collects numerical data?",
+    "explanation": "Surveys collect quantitative data such as ratings, counts, or scales.",
+    "options": [
+      {
+        "text": "Focus groups",
+        "is_correct": false
+      },
+      {
+        "text": "Usability testing",
+        "is_correct": false
+      },
+      {
+        "text": "Surveys",
+        "is_correct": true
+      },
+      {
+        "text": "Ethnographic studies",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which is NOT a key component of user personas?",
+    "explanation": "Technical stacks are not part of personas, which focus on user characteristics and \nneeds.",
+    "options": [
+      {
+        "text": "Demographics",
+        "is_correct": true
+      },
+      {
+        "text": "User goals",
+        "is_correct": false
+      },
+      {
+        "text": "Technical stack used",
+        "is_correct": false
+      },
+      {
+        "text": "Pain points",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What does ‘wireframe’ mean in UX design?",
+    "explanation": "Wireframes are simple black-and-white layouts showing placement of elements \nwithout styling.",
+    "options": [
+      {
+        "text": "A detailed, colored mockup",
+        "is_correct": true
+      },
+      {
+        "text": "A basic layout sketch of a page",
+        "is_correct": false
+      },
+      {
+        "text": "Final product design",
+        "is_correct": false
+      },
+      {
+        "text": "Backend architecture",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What does the term ‘user journey’ describe?",
+    "explanation": "User journeys map the process users go through to complete tasks.",
+    "options": [
+      {
+        "text": "The server path for data",
+        "is_correct": true
+      },
+      {
+        "text": "Steps a user takes to accomplish a goal",
+        "is_correct": false
+      },
+      {
+        "text": "Code deployment process",
+        "is_correct": false
+      },
+      {
+        "text": "Graphic design process",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which tool is commonly used for remote usability testing?",
+    "explanation": "Lookback.io records and facilitates remote user testing sessions.",
+    "options": [
+      {
+        "text": "Zoom",
+        "is_correct": false
+      },
+      {
+        "text": "Lookback.io",
+        "is_correct": true
+      },
+      {
+        "text": "Photoshop",
+        "is_correct": false
+      },
+      {
+        "text": "GitHub",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which principle aims to keep interfaces simple and minimal?",
+    "explanation": "Minimalism avoids clutter and focuses on essential elements for clarity.",
+    "options": [
+      {
+        "text": "Flexibility",
+        "is_correct": false
+      },
+      {
+        "text": "Minimalism",
+        "is_correct": true
+      },
+      {
+        "text": "Scalability",
+        "is_correct": false
+      },
+      {
+        "text": "Affordance",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What is the benefit of ‘card sorting’ in UX?",
+    "explanation": "Card sorting helps organize content in a way users find logical.",
+    "options": [
+      {
+        "text": "To test color schemes",
+        "is_correct": true
+      },
+      {
+        "text": "To organize information architecture",
+        "is_correct": false
+      },
+      {
+        "text": "To design icons",
+        "is_correct": false
+      },
+      {
+        "text": "To fix bugs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What does the ‘Fitts’s Law’ state?",
+    "explanation": "Fitts’s Law predicts that targets closer and larger are faster to reach.",
+    "options": [
+      {
+        "text": "The time to reach a target depends on distance and size",
+        "is_correct": true
+      },
+      {
+        "text": "Color affects usability",
+        "is_correct": false
+      },
+      {
+        "text": "Feedback improves learning",
+        "is_correct": false
+      },
+      {
+        "text": "User satisfaction increases with speed",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which design pattern is used to save user time by predicting inputs?",
+    "explanation": "Autocomplete suggests possible completions, speeding input.",
+    "options": [
+      {
+        "text": "Autocomplete",
+        "is_correct": true
+      },
+      {
+        "text": "Modal window",
+        "is_correct": false
+      },
+      {
+        "text": "Tooltip",
+        "is_correct": false
+      },
+      {
+        "text": "Carousel",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which of these is a form of quantitative usability testing?",
+    "explanation": "A/B testing compares performance metrics between two variants.",
+    "options": [
+      {
+        "text": "A/B Testing",
+        "is_correct": true
+      },
+      {
+        "text": "User interview",
+        "is_correct": false
+      },
+      {
+        "text": "Focus group",
+        "is_correct": false
+      },
+      {
+        "text": "Diary study",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What is a ‘heuristic’ in UX?",
+    "explanation": "Heuristics are usability rules used to guide design and evaluation.",
+    "options": [
+      {
+        "text": "A code function",
+        "is_correct": true
+      },
+      {
+        "text": "A rule of thumb for usability",
+        "is_correct": false
+      },
+      {
+        "text": "An animation technique",
+        "is_correct": false
+      },
+      {
+        "text": "A database query",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What does ‘persona empathy map’ help to understand?",
+    "explanation": "Empathy maps visualize what users think, feel, hear, and say.",
+    "options": [
+      {
+        "text": "User technical skills",
+        "is_correct": true
+      },
+      {
+        "text": "User feelings and motivations",
+        "is_correct": false
+      },
+      {
+        "text": "User demographics",
+        "is_correct": false
+      },
+      {
+        "text": "Server uptime",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What is a ‘call to action’ (CTA)?",
+    "explanation": "CTAs prompt users to take specific actions like ‘Buy Now’",
+    "options": [
+      {
+        "text": "Error message",
+        "is_correct": true
+      },
+      {
+        "text": "Button prompting user action",
+        "is_correct": false
+      },
+      {
+        "text": "Loading spinner",
+        "is_correct": false
+      },
+      {
+        "text": "Navigation bar",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "Which method helps identify problems by watching users use a product?",
+    "explanation": "Usability testing involves real users performing tasks while being observed.",
+    "options": [
+      {
+        "text": "Heuristic evaluation",
+        "is_correct": false
+      },
+      {
+        "text": "Usability testing",
+        "is_correct": true
+      },
+      {
+        "text": "Survey",
+        "is_correct": false
+      },
+      {
+        "text": "A/B testing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_text": "What does ‘progressive disclosure’ do?",
+    "explanation": "Progressive disclosure simplifies the interface by hiding complex features initially.",
+    "options": [
+      {
+        "text": "Shows all options at once",
+        "is_correct": true
+      },
+      {
+        "text": "Hides advanced options until needed",
+        "is_correct": false
+      },
+      {
+        "text": "Discloses bugs progressively",
+        "is_correct": false
+      },
+      {
+        "text": "Automatically saves data",
+        "is_correct": false
+      }
+    ]
+  }
+]
