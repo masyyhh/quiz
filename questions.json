@@ -1,1102 +1,952 @@
 [
   {
-    "question_text": "What is the main goal of User-Centered Design (UCD)?",
-    "explanation": "User-Centered Design (UCD) focuses on involving real users throughout the design \nprocess to ensure the product meets their needs and expectations.",
-    "options": [
-      {
-        "text": "Promote visual creativity",
-        "is_correct": true
-      },
-      {
-        "text": "Involve users in the design process",
-        "is_correct": false
-      },
-      {
-        "text": "Reduce cost",
-        "is_correct": false
-      },
-      {
-        "text": "Design for aesthetics",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the time complexity of adding an element to the end of a dynamic array?",
+  "explanation": "In a dynamic array, if there is space available, adding an element to the end takes O(1) time. However, if the array is full, it needs to be resized, which takes O(n) time. The amortized time complexity is O(1).",
+  "options": [
+  { "text": "O(1)", "is_correct": false },
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(log n)", "is_correct": false },
+  { "text": "Amortized O(1)", "is_correct": true }
+  ]
   },
   {
-    "question_text": "Which principle states that design should be consistent and predictable?",
-    "explanation": "Consistency ensures similar elements behave the same way throughout the interface, \nhelping users form accurate mental models. \nAffordance is about suggesting how an element should be used (e.g., buttons look \nclickable).",
-    "options": [
-      {
-        "text": "Visibility",
-        "is_correct": false
-      },
-      {
-        "text": "Affordance",
-        "is_correct": true
-      },
-      {
-        "text": "Consistency",
-        "is_correct": false
-      },
-      {
-        "text": "Feedback",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Which of the following is a key feature of an array?",
+  "explanation": "Arrays store elements in contiguous memory locations, which allows for efficient access to elements using their index.",
+  "options": [
+  { "text": "Elements are stored at random memory locations.", "is_correct": false },
+  { "text": "The size of the array cannot be predetermined.", "is_correct": false },
+  { "text": "Elements are stored in contiguous memory locations.", "is_correct": true },
+  { "text": "It can store elements of different data types in most programming languages.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Feedback in UI design refers to:",
-    "explanation": "In UI/UX, feedback is the immediate visual, auditory, or tactile response a system gives \nto inform the user that an action has been registered — for example, a button changing \ncolor when clicked or showing a success message.",
-    "options": [
-      {
-        "text": "Colors used in a button",
-        "is_correct": true
-      },
-      {
-        "text": "A user leaving a review",
-        "is_correct": false
-      },
-      {
-        "text": "System response to user actions",
-        "is_correct": false
-      },
-      {
-        "text": "Product ratings",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the primary advantage of using an array?",
+  "explanation": "Direct access to elements using an index is the main advantage of an array, providing O(1) time complexity for access.",
+  "options": [
+  { "text": "Dynamic size", "is_correct": false },
+  { "text": "Efficient insertion and deletion at any position", "is_correct": false },
+  { "text": "Constant time access to elements by index", "is_correct": true },
+  { "text": "Can store heterogeneous data", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Affordance refers to:",
-    "explanation": "Affordance refers to the design of an element suggesting how it should be used. \nFor example, a raised button affords clicking, while a slider affords dragging. It’s about \nvisual clues.",
-    "options": [
-      {
-        "text": "Low-cost design",
-        "is_correct": true
-      },
-      {
-        "text": "Suggesting possible actions",
-        "is_correct": false
-      },
-      {
-        "text": "User satisfaction",
-        "is_correct": false
-      },
-      {
-        "text": "Interface responsiveness",
-        "is_correct": false
-      }
-    ]
+  "question_text": "In a 2D array, how are elements typically stored in memory?",
+  "explanation": "Row-major order stores all the elements of the first row, followed by all the elements of the second row, and so on.",
+  "options": [
+  { "text": "Column-major order", "is_correct": false },
+  { "text": "Row-major order", "is_correct": true },
+  { "text": "In a zig-zag pattern", "is_correct": false },
+  { "text": "Based on the element's value", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which of the following is a usability heuristic?",
-    "explanation": "This heuristic, from Nielsen’s 10 usability heuristics, encourages interfaces that \nminimize memory load by making options visible—users should recognize options \nrather than recall them from memory (e.g., dropdown menus vs. typing commands).",
-    "options": [
-      {
-        "text": "Data compression",
-        "is_correct": true
-      },
-      {
-        "text": "Recognition over recall",
-        "is_correct": false
-      },
-      {
-        "text": "Vertical scaling",
-        "is_correct": false
-      },
-      {
-        "text": "Encryption",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What happens when you try to access an array element with an index that is out of bounds?",
+  "explanation": "Accessing an array with an out-of-bounds index leads to undefined behavior, which can manifest as a runtime error or accessing garbage data.",
+  "options": [
+  { "text": "The program automatically resizes the array.", "is_correct": false },
+  { "text": "It returns the last element of the array.", "is_correct": false },
+  { "text": "It results in a compile-time error.", "is_correct": false },
+  { "text": "It leads to undefined behavior.", "is_correct": true }
+  ]
   },
   {
-    "question_text": "Error prevention means:",
-    "explanation": "Error prevention involves proactively designing systems that minimize the chances of \nuser errors — for example, disabling a \"Submit\" button until all required fields are filled \nor using confirmation prompts before destructive actions.",
-    "options": [
-      {
-        "text": "Not showing errors",
-        "is_correct": true
-      },
-      {
-        "text": "Hiding all buttons",
-        "is_correct": false
-      },
-      {
-        "text": "Designing to reduce user mistakes",
-        "is_correct": false
-      },
-      {
-        "text": "Removing confirmation messages",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Which OOPS concept is demonstrated by a class inheriting properties from another class?",
+  "explanation": "Inheritance is a fundamental OOPS concept where a new class (subclass) derives properties and methods from an existing class (superclass).",
+  "options": [
+  { "text": "Encapsulation", "is_correct": false },
+  { "text": "Polymorphism", "is_correct": false },
+  { "text": "Inheritance", "is_correct": true },
+  { "text": "Abstraction", "is_correct": false }
+  ]
   },
   {
-    "question_text": "A system that adapts to different screen sizes is called:",
-    "explanation": "Responsive design adjusts layout and elements dynamically to fit various screen sizes \nand orientations (like mobile, tablet, and desktop) — improving usability and \naccessibility across devices.",
-    "options": [
-      {
-        "text": "Reactive",
-        "is_correct": false
-      },
-      {
-        "text": "Flexible",
-        "is_correct": false
-      },
-      {
-        "text": "Responsive",
-        "is_correct": true
-      },
-      {
-        "text": "Dynamic",
-        "is_correct": false
-      }
-    ]
+  "question_text": "The bundling of data and methods that operate on the data into a single unit is known as:",
+  "explanation": "Encapsulation is the mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit.",
+  "options": [
+  { "text": "Inheritance", "is_correct": false },
+  { "text": "Encapsulation", "is_correct": true },
+  { "text": "Polymorphism", "is_correct": false },
+  { "text": "Abstraction", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which UX principle ensures important elements are easy to find?",
-    "explanation": "The visibility principle ensures that key elements, actions, and options are clearly \nvisible to users. For example, placing a prominent \"Buy Now\" button where users expect \nit improves usability and task success.",
-    "options": [
-      {
-        "text": "Visibility",
-        "is_correct": true
-      },
-      {
-        "text": "Affordance",
-        "is_correct": false
-      },
-      {
-        "text": "Consistency",
-        "is_correct": false
-      },
-      {
-        "text": "Constraint",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the ability of an object to take on many forms?",
+  "explanation": "Polymorphism allows objects of different classes to be treated as objects of a common superclass, enabling methods to be called on them without knowing their specific type.",
+  "options": [
+  { "text": "Inheritance", "is_correct": false },
+  { "text": "Abstraction", "is_correct": false },
+  { "text": "Encapsulation", "is_correct": false },
+  { "text": "Polymorphism", "is_correct": true }
+  ]
   },
   {
-    "question_text": "An effective error message should be:",
-    "explanation": "A good error message tells users what went wrong, why it happened, and how to fix \nit—without placing blame. For example: \n“ Invalid email. Please enter a valid format like name@example.com.”",
-    "options": [
-      {
-        "text": "Technical",
-        "is_correct": true
-      },
-      {
-        "text": "Hidden",
-        "is_correct": false
-      },
-      {
-        "text": "Blaming the user",
-        "is_correct": false
-      },
-      {
-        "text": "Clear and helpful",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Hiding the implementation details and showing only the functionality to the user is known as:",
+  "explanation": "Abstraction focuses on hiding the complex reality while exposing only the essential parts. It's about what an object does, not how it does it.",
+  "options": [
+  { "text": "Polymorphism", "is_correct": false },
+  { "text": "Inheritance", "is_correct": false },
+  { "text": "Abstraction", "is_correct": true },
+  { "text": "Encapsulation", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which term describes how a design guides user behavior naturally?",
-    "explanation": "A signifier is a visual cue that indicates how an element can be used — like underlined \ntext implying a hyperlink or a handle suggesting a slider. \nConstraints, on the other hand, limit how users can interact with an interface (e.g., \ngraying out unavailable options).",
-    "options": [
-      {
-        "text": "Constraint",
-        "is_correct": true
-      },
-      {
-        "text": "Signifier",
-        "is_correct": false
-      },
-      {
-        "text": "Obstruction",
-        "is_correct": false
-      },
-      {
-        "text": "Indicator",
-        "is_correct": false
-      }
-    ]
+  "question_text": "A blueprint for creating objects is called a:",
+  "explanation": "A class is a blueprint or a template from which objects are created. It defines the properties and methods that the objects of that class will have.",
+  "options": [
+  { "text": "Method", "is_correct": false },
+  { "text": "Object", "is_correct": false },
+  { "text": "Class", "is_correct": true },
+  { "text": "Variable", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What does WCAG stand for?",
-    "explanation": "WCAG is the global standard for making web content more accessible to people with \ndisabilities. It provides guidelines on text alternatives, contrast, navigation, \nkeyboard access, and more.",
-    "options": [
-      {
-        "text": "Web Code and Graphic",
-        "is_correct": true
-      },
-      {
-        "text": "Web Content Accessibility Guidelines",
-        "is_correct": false
-      },
-      {
-        "text": "Web Compliance and Guidance",
-        "is_correct": false
-      },
-      {
-        "text": "Website Compliance Advisory Group",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the primary disadvantage of a linked list compared to an array?",
+  "explanation": "Linked lists do not have contiguous memory allocation for their elements, so accessing an element by index requires traversing the list from the beginning, resulting in O(n) time complexity.",
+  "options": [
+  { "text": "Inefficient insertion", "is_correct": false },
+  { "text": "Inefficient deletion", "is_correct": false },
+  { "text": "No random access to elements", "is_correct": true },
+  { "text": "Fixed size", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which of the following improves accessibility?",
-    "explanation": "Alt text (alternative text) describes images for screen readers and users who can’t view \ngraphics. It’s essential for visually impaired users and improves overall accessibility \nand SEO.",
-    "options": [
-      {
-        "text": "Small fonts",
-        "is_correct": true
-      },
-      {
-        "text": "Low color contrast",
-        "is_correct": false
-      },
-      {
-        "text": "Alt text for images",
-        "is_correct": false
-      },
-      {
-        "text": "Background videos",
-        "is_correct": false
-      }
-    ]
+  "question_text": "In a singly linked list, each node contains:",
+  "explanation": "Each node in a singly linked list holds the data and a reference (or pointer) to the next node in the sequence.",
+  "options": [
+  { "text": "Only data", "is_correct": false },
+  { "text": "Data and a pointer to the previous node", "is_correct": false },
+  { "text": "Data and a pointer to the next node", "is_correct": true },
+  { "text": "Pointers to the previous and next nodes", "is_correct": false }
+  ]
   },
   {
-    "question_text": "ARIA labels are used to:",
-    "explanation": "ARIA (Accessible Rich Internet Applications) labels provide additional semantic \ninformation to assistive technologies like screen readers, helping users understand the \nrole and state of interactive elements.",
-    "options": [
-      {
-        "text": "Change themes",
-        "is_correct": true
-      },
-      {
-        "text": "Add animations",
-        "is_correct": false
-      },
-      {
-        "text": "Improve accessibility for screen readers",
-        "is_correct": false
-      },
-      {
-        "text": "Apply responsive layout",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the time complexity of inserting a new node at the beginning of a singly linked list?",
+  "explanation": "To insert a node at the beginning, you only need to update the head pointer, which is a constant time operation.",
+  "options": [
+  { "text": "O(1)", "is_correct": true },
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(log n)", "is_correct": false },
+  { "text": "O(n log n)", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Inclusive design means:",
-    "explanation": "Inclusive design aims to create products usable by people with diverse abilities, ages, \nlanguages, cultures, and technical skills, ensuring broad accessibility and usability.",
-    "options": [
-      {
-        "text": "Designing only for advanced users",
-        "is_correct": true
-      },
-      {
-        "text": "Designing for specific user groups",
-        "is_correct": false
-      },
-      {
-        "text": "Designing for as many people as possible",
-        "is_correct": false
-      },
-      {
-        "text": "Designing with minimal elements",
-        "is_correct": false
-      }
-    ]
+  "question_text": "A linked list where the last node points back to the first node is called a:",
+  "explanation": "In a circular linked list, the 'next' pointer of the last node points to the head of the list, forming a circle.",
+  "options": [
+  { "text": "Doubly linked list", "is_correct": false },
+  { "text": "Singly linked list", "is_correct": false },
+  { "text": "Circular linked list", "is_correct": true },
+  { "text": "Header linked list", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which of the following is NOT an assistive technology?",
-    "explanation": "Assistive technologies help users with disabilities interact with devices. \n• Screen readers and Braille displays are assistive. \n• Keyboards can be considered assistive for people unable to use a mouse. \n• A touchpad is a standard input device, not specifically assistive.",
-    "options": [
-      {
-        "text": "Screen reader",
-        "is_correct": true
-      },
-      {
-        "text": "Braille display",
-        "is_correct": false
-      },
-      {
-        "text": "Keyboard",
-        "is_correct": false
-      },
-      {
-        "text": "Touchpad",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What does a null pointer in a linked list node's next field signify?",
+  "explanation": "A null value in the next field of a node indicates that it is the last node in the linked list.",
+  "options": [
+  { "text": "The list is empty.", "is_correct": false },
+  { "text": "It is the head of the list.", "is_correct": false },
+  { "text": "It is the end of the list.", "is_correct": true },
+  { "text": "The node contains no data.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Low-fidelity prototypes are usually:",
-    "explanation": "Low-fidelity prototypes are simple, often hand-drawn or basic wireframes used early in \nthe design process to explore ideas quickly without focusing on visual details or \ninteractivity.",
-    "options": [
-      {
-        "text": "Interactive and functional",
-        "is_correct": true
-      },
-      {
-        "text": "Code-based",
-        "is_correct": false
-      },
-      {
-        "text": "Paper sketches or wireframes",
-        "is_correct": false
-      },
-      {
-        "text": "High-resolution designs",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the term for adding an element to a stack?",
+  "explanation": "The 'push' operation is used to add an element to the top of a stack.",
+  "options": [
+  { "text": "Enqueue", "is_correct": false },
+  { "text": "Push", "is_correct": true },
+  { "text": "Add", "is_correct": false },
+  { "text": "Insert", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which tool is commonly used for UI prototyping?",
-    "explanation": "Figma is a popular cloud-based design tool used for creating UI prototypes, wireframes, \nand interactive designs collaboratively.",
-    "options": [
-      {
-        "text": "SQL",
-        "is_correct": false
-      },
-      {
-        "text": "Figma",
-        "is_correct": true
-      },
-      {
-        "text": "Excel",
-        "is_correct": false
-      },
-      {
-        "text": "Postman",
-        "is_correct": false
-      }
-    ]
+  "question_text": "If a stack is implemented using an array, what condition indicates that the stack is full?",
+  "explanation": "In an array-based implementation, the stack is full when the top pointer reaches the last index of the array.",
+  "options": [
+  { "text": "top == -1", "is_correct": false },
+  { "text": "top == 0", "is_correct": false },
+  { "text": "top == size - 1", "is_correct": true },
+  { "text": "top == size", "is_correct": false }
+  ]
   },
   {
-    "question_text": "A clickable prototype simulates:",
-    "explanation": "Clickable prototypes allow users to interact with the design by simulating the navigation \nand flow of the final product without needing full backend functionality.",
-    "options": [
-      {
-        "text": "Server speed",
-        "is_correct": true
-      },
-      {
-        "text": "Interactions/navigation flow",
-        "is_correct": false
-      },
-      {
-        "text": "Final code logic",
-        "is_correct": false
-      },
-      {
-        "text": "Database connections",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Which of the following is an application of a stack?",
+  "explanation": "Stacks are commonly used for function call management, where the currently executing function is at the top of the stack.",
+  "options": [
+  { "text": "Serving requests to a single shared resource", "is_correct": false },
+  { "text": "Breadth-First Search in a graph", "is_correct": false },
+  { "text": "Managing function calls", "is_correct": true },
+  { "text": "A printer queue", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which is a benefit of prototyping?",
-    "explanation": "Prototyping helps designers test ideas quickly and gather feedback from users and \nstakeholders before full development, saving time and cost.",
-    "options": [
-      {
-        "text": "Hides usability issues",
-        "is_correct": true
-      },
-      {
-        "text": "Reduces creativity",
-        "is_correct": false
-      },
-      {
-        "text": "Gathers early feedback",
-        "is_correct": false
-      },
-      {
-        "text": "Increases development cost",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What happens when you try to 'pop' an element from an empty stack?",
+  "explanation": "Attempting to remove an element from an empty stack results in a condition called underflow.",
+  "options": [
+  { "text": "The stack becomes corrupted.", "is_correct": false },
+  { "text": "It returns a null value.", "is_correct": false },
+  { "text": "It results in a stack underflow.", "is_correct": true },
+  { "text": "The program crashes immediately.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "High-fidelity prototypes typically include:",
-    "explanation": "High-fidelity prototypes closely mimic the final product’s look and feel, including \ndetailed visuals and interactive elements, but may not include backend logic like \ndatabases.",
-    "options": [
-      {
-        "text": "Database logic",
-        "is_correct": true
-      },
-      {
-        "text": "System architecture",
-        "is_correct": false
-      },
-      {
-        "text": "Final UI layout and interactivity",
-        "is_correct": false
-      },
-      {
-        "text": "Placeholder content only",
-        "is_correct": false
-      }
-    ]
+  "question_text": "The operation of peeking into a stack means:",
+  "explanation": "Peeking allows you to see the top element of the stack without removing it.",
+  "options": [
+  { "text": "Adding an element to the top.", "is_correct": false },
+  { "text": "Removing the top element.", "is_correct": false },
+  { "text": "Viewing the top element without removing it.", "is_correct": true },
+  { "text": "Checking if the stack is empty.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which is NOT a phase in the interaction design lifecycle?",
-    "explanation": "The interaction design lifecycle focuses on understanding requirements, designing, \n\nprototyping, and evaluating. Coding is part of software development but not strictly a \nphase of the interaction design lifecycle.",
-    "options": [
-      {
-        "text": "Requirement gathering",
-        "is_correct": false
-      },
-      {
-        "text": "Coding",
-        "is_correct": true
-      },
-      {
-        "text": "Prototyping",
-        "is_correct": false
-      },
-      {
-        "text": "Evaluation",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Which principle does a queue follow?",
+  "explanation": "A queue is a First-In, First-Out (FIFO) data structure, where the first element added is the first one to be removed.",
+  "options": [
+  { "text": "LIFO (Last-In, First-Out)", "is_correct": false },
+  { "text": "FIFO (First-In, First-Out)", "is_correct": true },
+  { "text": "FILO (First-In, Last-Out)", "is_correct": false },
+  { "text": "LILO (Last-In, Last-Out)", "is_correct": false }
+  ]
   },
   {
-    "question_text": "A metaphor in interface design helps users:",
-    "explanation": "Interface metaphors use real-world concepts to help users understand and learn how \nto use digital interfaces more quickly by relating to something familiar.",
-    "options": [
-      {
-        "text": "Access code",
-        "is_correct": true
-      },
-      {
-        "text": "Learn faster through familiarity",
-        "is_correct": false
-      },
-      {
-        "text": "Visualize database",
-        "is_correct": false
-      },
-      {
-        "text": "Animate content",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What are the two main operations of a queue?",
+  "explanation": "Enqueue is the operation of adding an element to the rear of the queue, and Dequeue is the operation of removing an element from the front.",
+  "options": [
+  { "text": "Push and Pop", "is_correct": false },
+  { "text": "Insert and Delete", "is_correct": false },
+  { "text": "Enqueue and Dequeue", "is_correct": true },
+  { "text": "Add and Remove", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which is an example of an interface metaphor?",
-    "explanation": "The trash bin icon is a classic interface metaphor representing a place where unwanted \nfiles are discarded, drawing on the physical world experience of throwing things in a \ntrash can.",
-    "options": [
-      {
-        "text": "Dropdown menu",
-        "is_correct": true
-      },
-      {
-        "text": "Toggle switch",
-        "is_correct": false
-      },
-      {
-        "text": "Trash bin icon for delete",
-        "is_correct": false
-      },
-      {
-        "text": "Pagination control",
-        "is_correct": false
-      }
-    ]
+  "question_text": "In a queue implemented with a linked list, where are new elements added?",
+  "explanation": "To maintain the FIFO order, new elements are added to the rear (or tail) of the linked list.",
+  "options": [
+  { "text": "At the head of the list", "is_correct": false },
+  { "text": "At the tail of the list", "is_correct": true },
+  { "text": "In the middle of the list", "is_correct": false },
+  { "text": "At a random position", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What is the purpose of the evaluation phase?",
-    "explanation": "The evaluation phase involves testing prototypes with users, gathering feedback, \nidentifying usability issues, and refining the design before final deployment.",
-    "options": [
-      {
-        "text": "Deploy product",
-        "is_correct": true
-      },
-      {
-        "text": "Analyze errors only",
-        "is_correct": false
-      },
-      {
-        "text": "Measure usability and get feedback",
-        "is_correct": false
-      },
-      {
-        "text": "Add more features",
-        "is_correct": false
-      }
-    ]
+  "question_text": "A circular queue is implemented using an array. What is the main advantage of this implementation over a linear queue?",
+  "explanation": "A circular queue allows the queue to wrap around to the beginning of the array when the end is reached, making efficient use of the array's space.",
+  "options": [
+  { "text": "Faster access to elements", "is_correct": false },
+  { "text": "Allows for dynamic resizing", "is_correct": false },
+  { "text": "More efficient use of space", "is_correct": true },
+  { "text": "Simpler implementation", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which is a quantitative research method?",
-    "explanation": "Heatmap analysis collects numerical data on where users click or scroll (quantitative). \nUser interviews and focus groups are qualitative methods focused on gathering \nopinions and experiences.",
-    "options": [
-      {
-        "text": "User interview",
-        "is_correct": true
-      },
-      {
-        "text": "Usability testing",
-        "is_correct": false
-      },
-      {
-        "text": "Heatmap analysis",
-        "is_correct": false
-      },
-      {
-        "text": "Focus group",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Which of the following is a real-world example of a queue?",
+  "explanation": "A line of people waiting for a service, like a printer queue, operates on a first-come, first-served basis, which is the principle of a queue.",
+  "options": [
+  { "text": "The undo feature in a text editor", "is_correct": false },
+  { "text": "The back button in a web browser", "is_correct": false },
+  { "text": "A printer queue", "is_correct": true },
+  { "text": "Balancing parentheses in a mathematical expression", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which metric evaluates user satisfaction?",
-    "explanation": "The Net Promoter Score (NPS) and System Usability Scale (SUS) are standardized \nmetrics used to measure user satisfaction and perceived usability of a product.",
-    "options": [
-      {
-        "text": "NPS or SUS score",
-        "is_correct": true
-      },
-      {
-        "text": "Load time",
-        "is_correct": false
-      },
-      {
-        "text": "Server response rate",
-        "is_correct": false
-      },
-      {
-        "text": "App installation count",
-        "is_correct": false
-      }
-    ]
+  "question_text": "A tree where every node has at most two children is called a:",
+  "explanation": "A binary tree is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child.",
+  "options": [
+  { "text": "General tree", "is_correct": false },
+  { "text": "Binary tree", "is_correct": true },
+  { "text": "Ternary tree", "is_correct": false },
+  { "text": "N-ary tree", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What is the goal of A/B testing?",
-    "explanation": "A/B testing involves presenting two different versions of a design to users and \nmeasuring which performs better based on key metrics like conversion or engagement.",
-    "options": [
-      {
-        "text": "Compare two versions to find the better one",
-        "is_correct": true
-      },
-      {
-        "text": "Add features",
-        "is_correct": false
-      },
-      {
-        "text": "Fix errors",
-        "is_correct": false
-      },
-      {
-        "text": "Test only visuals",
-        "is_correct": false
-      }
-    ]
+  "question_text": "In a binary tree, the topmost node is called the:",
+  "explanation": "The root is the starting node of the tree and has no parent.",
+  "options": [
+  { "text": "Leaf", "is_correct": false },
+  { "text": "Root", "is_correct": true },
+  { "text": "Parent", "is_correct": false },
+  { "text": "Child", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Think-aloud protocol helps to gather:",
-    "explanation": "The think-aloud protocol asks users to verbalize their thoughts as they interact with a \nsystem, providing rich qualitative insights into their experience and challenges.",
-    "options": [
-      {
-        "text": "Server metrics",
-        "is_correct": true
-      },
-      {
-        "text": "User behavior and thoughts while performing tasks",
-        "is_correct": false
-      },
-      {
-        "text": "Analytics only",
-        "is_correct": false
-      },
-      {
-        "text": "Sales conversions",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Which tree traversal visits the root node first, then the left subtree, and then the right subtree?",
+  "explanation": "Pre-order traversal follows the order: Root -> Left -> Right.",
+  "options": [
+  { "text": "In-order", "is_correct": false },
+  { "text": "Pre-order", "is_correct": true },
+  { "text": "Post-order", "is_correct": false },
+  { "text": "Level-order", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Personas are used in UX to:",
-    "explanation": "Personas are fictional but data-driven profiles that represent key user groups. They help \ndesigners keep real user needs and behaviors in focus throughout the design process.",
-    "options": [
-      {
-        "text": "Create security layers",
-        "is_correct": true
-      },
-      {
-        "text": "Represent typical users",
-        "is_correct": false
-      },
-      {
-        "text": "Build admin panels",
-        "is_correct": false
-      },
-      {
-        "text": "Manage databases",
-        "is_correct": false
-      }
-    ]
+  "question_text": "A node in a binary tree that has no children is called a:",
+  "explanation": "Leaf nodes, also known as external nodes, are the nodes at the very bottom of the tree and have no children.",
+  "options": [
+  { "text": "Root node", "is_correct": false },
+  { "text": "Internal node", "is_correct": false },
+  { "text": "Leaf node", "is_correct": true },
+  { "text": "Parent node", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Usability testing focuses on:",
-    "explanation": "Usability testing observes actual users as they interact with the product to identify \nusability issues and areas for improvement, ensuring the design meets user needs \neffectively.",
-    "options": [
-      {
-        "text": "Server speed",
-        "is_correct": true
-      },
-      {
-        "text": "Color theory",
-        "is_correct": false
-      },
-      {
-        "text": "Real user interaction with the system",
-        "is_correct": false
-      },
-      {
-        "text": "Performance testing",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the height of a binary tree?",
+  "explanation": "The height of a binary tree is the length of the longest path from the root to a leaf node.",
+  "options": [
+  { "text": "The number of nodes in the tree.", "is_correct": false },
+  { "text": "The number of leaf nodes in the tree.", "is_correct": false },
+  { "text": "The length of the longest path from the root to a leaf.", "is_correct": true },
+  { "text": "The number of internal nodes.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which design principle emphasizes reducing the user’s memory load?",
-    "explanation": "Recognition over recall reduces cognitive load by allowing users to recognize options \ninstead of memorizing information.",
-    "options": [
-      {
-        "text": "Visibility",
-        "is_correct": false
-      },
-      {
-        "text": "Recognition over recall",
-        "is_correct": true
-      },
-      {
-        "text": "Feedback",
-        "is_correct": false
-      },
-      {
-        "text": "Consistency",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Binary search can be applied to which of the following data structures?",
+  "explanation": "Binary search requires the data to be sorted, and it works by repeatedly dividing the search interval in half. This is most efficiently done on a sorted array.",
+  "options": [
+  { "text": "A sorted array", "is_correct": true },
+  { "text": "An unsorted linked list", "is_correct": false },
+  { "text": "A hash table", "is_correct": false },
+  { "text": "A queue", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What does ‘heuristic evaluation’ involve?",
-    "explanation": "Heuristic evaluation is a usability inspection where experts evaluate the interface based \non recognized usability principles.",
-    "options": [
-      {
-        "text": "Testing code efficiency",
-        "is_correct": true
-      },
-      {
-        "text": "Expert review of usability principles",
-        "is_correct": false
-      },
-      {
-        "text": "User survey",
-        "is_correct": false
-      },
-      {
-        "text": "Automated bug testing",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the time complexity of a binary search in the worst-case scenario?",
+  "explanation": "With each comparison, binary search eliminates half of the remaining elements, leading to a logarithmic time complexity.",
+  "options": [
+  { "text": "O(1)", "is_correct": false },
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(log n)", "is_correct": true },
+  { "text": "O(n log n)", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which prototyping fidelity is best for quick concept validation?",
-    "explanation": "Low-fidelity prototypes are simple and fast to create, ideal for early feedback and \nconcept validation.",
-    "options": [
-      {
-        "text": "High-fidelity",
-        "is_correct": false
-      },
-      {
-        "text": "Medium-fidelity",
-        "is_correct": false
-      },
-      {
-        "text": "Low-fidelity",
-        "is_correct": true
-      },
-      {
-        "text": "Final product",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Which of the following is a prerequisite for performing a binary search?",
+  "explanation": "Binary search relies on the ability to eliminate half of the search space with each comparison, which is only possible if the elements are in a sorted order.",
+  "options": [
+  { "text": "The data must be in an array.", "is_correct": false },
+  { "text": "The data must be sorted.", "is_correct": true },
+  { "text": "The data must be of integer type.", "is_correct": false },
+  { "text": "The number of elements must be a power of two.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "The term ‘affordance’ was coined by:",
-    "explanation": "Donald Norman introduced the term to describe perceived and actual properties of an \nobject that determine how it could be used.",
-    "options": [
-      {
-        "text": "Donald Norman",
-        "is_correct": true
-      },
-      {
-        "text": "Jakob Nielsen",
-        "is_correct": false
-      },
-      {
-        "text": "Steve Jobs",
-        "is_correct": false
-      },
-      {
-        "text": "Alan Turing",
-        "is_correct": false
-      }
-    ]
+  "question_text": "If a binary search is performed on an array of 1024 elements, what is the maximum number of comparisons that will be made?",
+  "explanation": "The maximum number of comparisons in a binary search is log2(n), where n is the number of elements. log2(1024) = 10.",
+  "options": [
+  { "text": "10", "is_correct": true },
+  { "text": "11", "is_correct": false },
+  { "text": "512", "is_correct": false },
+  { "text": "1024", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What is the main advantage of responsive web design?",
-    "explanation": "Responsive design ensures the website adapts to various screen sizes, improving user \nexperience across devices.",
-    "options": [
-      {
-        "text": "Faster coding",
-        "is_correct": true
-      },
-      {
-        "text": "Works on all screen sizes",
-        "is_correct": false
-      },
-      {
-        "text": "Better graphics",
-        "is_correct": false
-      },
-      {
-        "text": "Advanced animations",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Binary search is an example of which algorithmic paradigm?",
+  "explanation": "Binary search is a classic example of the divide and conquer paradigm, where the problem is divided into smaller subproblems that are solved recursively.",
+  "options": [
+  { "text": "Greedy algorithm", "is_correct": false },
+  { "text": "Dynamic programming", "is_correct": false },
+  { "text": "Divide and conquer", "is_correct": true },
+  { "text": "Brute force", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which UX research method collects numerical data?",
-    "explanation": "Surveys collect quantitative data such as ratings, counts, or scales.",
-    "options": [
-      {
-        "text": "Focus groups",
-        "is_correct": false
-      },
-      {
-        "text": "Usability testing",
-        "is_correct": false
-      },
-      {
-        "text": "Surveys",
-        "is_correct": true
-      },
-      {
-        "text": "Ethnographic studies",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the key property of a Binary Search Tree (BST)?",
+  "explanation": "In a BST, for any given node, all values in its left subtree are less than the node's value, and all values in its right subtree are greater.",
+  "options": [
+  { "text": "The left child's value is always less than the right child's value.", "is_correct": false },
+  { "text": "For every node, the value of all nodes in its left subtree is less than its own value, and the value of all nodes in its right subtree is greater.", "is_correct": true },
+  { "text": "The tree is always perfectly balanced.", "is_correct": false },
+  { "text": "The root node always contains the smallest value.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which is NOT a key component of user personas?",
-    "explanation": "Technical stacks are not part of personas, which focus on user characteristics and \nneeds.",
-    "options": [
-      {
-        "text": "Demographics",
-        "is_correct": true
-      },
-      {
-        "text": "User goals",
-        "is_correct": false
-      },
-      {
-        "text": "Technical stack used",
-        "is_correct": false
-      },
-      {
-        "text": "Pain points",
-        "is_correct": false
-      }
-    ]
+  "question_text": "In-order traversal of a Binary Search Tree results in:",
+  "explanation": "An in-order traversal (Left -> Root -> Right) of a BST will always visit the nodes in ascending order of their values.",
+  "options": [
+  { "text": "A random sequence of values", "is_correct": false },
+  { "text": "The values in descending order", "is_correct": false },
+  { "text": "The values in ascending order", "is_correct": true },
+  { "text": "The values in the order they were inserted", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What does ‘wireframe’ mean in UX design?",
-    "explanation": "Wireframes are simple black-and-white layouts showing placement of elements \nwithout styling.",
-    "options": [
-      {
-        "text": "A detailed, colored mockup",
-        "is_correct": true
-      },
-      {
-        "text": "A basic layout sketch of a page",
-        "is_correct": false
-      },
-      {
-        "text": "Final product design",
-        "is_correct": false
-      },
-      {
-        "text": "Backend architecture",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the worst-case time complexity for searching in a Binary Search Tree?",
+  "explanation": "In the worst case, a BST can become a skewed tree (like a linked list), and searching would require traversing all 'n' nodes.",
+  "options": [
+  { "text": "O(1)", "is_correct": false },
+  { "text": "O(log n)", "is_correct": false },
+  { "text": "O(n)", "is_correct": true },
+  { "text": "O(n log n)", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What does the term ‘user journey’ describe?",
-    "explanation": "User journeys map the process users go through to complete tasks.",
-    "options": [
-      {
-        "text": "The server path for data",
-        "is_correct": true
-      },
-      {
-        "text": "Steps a user takes to accomplish a goal",
-        "is_correct": false
-      },
-      {
-        "text": "Code deployment process",
-        "is_correct": false
-      },
-      {
-        "text": "Graphic design process",
-        "is_correct": false
-      }
-    ]
+  "question_text": "To find the maximum value in a Binary Search Tree, you should:",
+  "explanation": "Since all values in the right subtree are greater than the current node's value, the maximum value will be the rightmost node in the tree.",
+  "options": [
+  { "text": "Traverse to the leftmost node.", "is_correct": false },
+  { "text": "Traverse to the rightmost node.", "is_correct": true },
+  { "text": "Perform a level-order traversal.", "is_correct": false },
+  { "text": "Check the root node's value.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which tool is commonly used for remote usability testing?",
-    "explanation": "Lookback.io records and facilitates remote user testing sessions.",
-    "options": [
-      {
-        "text": "Zoom",
-        "is_correct": false
-      },
-      {
-        "text": "Lookback.io",
-        "is_correct": true
-      },
-      {
-        "text": "Photoshop",
-        "is_correct": false
-      },
-      {
-        "text": "GitHub",
-        "is_correct": false
-      }
-    ]
+  "question_text": "When deleting a node with two children from a Binary Search Tree, what is a common approach?",
+  "explanation": "A common strategy is to replace the deleted node with its in-order successor (the smallest value in its right subtree) or its in-order predecessor (the largest value in its left subtree).",
+  "options": [
+  { "text": "Replace it with the root of the tree.", "is_correct": false },
+  { "text": "Replace it with its in-order successor or predecessor.", "is_correct": true },
+  { "text": "Simply remove the node and its children.", "is_correct": false },
+  { "text": "Replace it with a new leaf node.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which principle aims to keep interfaces simple and minimal?",
-    "explanation": "Minimalism avoids clutter and focuses on essential elements for clarity.",
-    "options": [
-      {
-        "text": "Flexibility",
-        "is_correct": false
-      },
-      {
-        "text": "Minimalism",
-        "is_correct": true
-      },
-      {
-        "text": "Scalability",
-        "is_correct": false
-      },
-      {
-        "text": "Affordance",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the worst-case time complexity of Bubble Sort?",
+  "explanation": "In the worst case (e.g., a reverse-sorted array), Bubble Sort will have to make n-1 passes, with each pass involving a comparison and potential swap for each element, leading to O(n^2) complexity.",
+  "options": [
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(n log n)", "is_correct": false },
+  { "text": "O(n^2)", "is_correct": true },
+  { "text": "O(log n)", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What is the benefit of ‘card sorting’ in UX?",
-    "explanation": "Card sorting helps organize content in a way users find logical.",
-    "options": [
-      {
-        "text": "To test color schemes",
-        "is_correct": true
-      },
-      {
-        "text": "To organize information architecture",
-        "is_correct": false
-      },
-      {
-        "text": "To design icons",
-        "is_correct": false
-      },
-      {
-        "text": "To fix bugs",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Bubble Sort is a stable sorting algorithm. What does 'stable' mean in this context?",
+  "explanation": "A stable sorting algorithm preserves the relative order of equal elements in the sorted output.",
+  "options": [
+  { "text": "Its performance is consistent regardless of the input data.", "is_correct": false },
+  { "text": "It does not require extra memory.", "is_correct": false },
+  { "text": "It maintains the relative order of equal elements.", "is_correct": true },
+  { "text": "It has a predictable number of swaps.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What does the ‘Fitts’s Law’ state?",
-    "explanation": "Fitts’s Law predicts that targets closer and larger are faster to reach.",
-    "options": [
-      {
-        "text": "The time to reach a target depends on distance and size",
-        "is_correct": true
-      },
-      {
-        "text": "Color affects usability",
-        "is_correct": false
-      },
-      {
-        "text": "Feedback improves learning",
-        "is_correct": false
-      },
-      {
-        "text": "User satisfaction increases with speed",
-        "is_correct": false
-      }
-    ]
+  "question_text": "In which scenario does Bubble Sort perform at its best?",
+  "explanation": "If the array is already sorted, Bubble Sort will make only one pass through the data and, with an optimization to check for swaps, will terminate early, resulting in O(n) complexity.",
+  "options": [
+  { "text": "When the array is reverse-sorted.", "is_correct": false },
+  { "text": "When the array is already sorted.", "is_correct": true },
+  { "text": "When the array contains many duplicate elements.", "is_correct": false },
+  { "text": "When the array size is small.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which design pattern is used to save user time by predicting inputs?",
-    "explanation": "Autocomplete suggests possible completions, speeding input.",
-    "options": [
-      {
-        "text": "Autocomplete",
-        "is_correct": true
-      },
-      {
-        "text": "Modal window",
-        "is_correct": false
-      },
-      {
-        "text": "Tooltip",
-        "is_correct": false
-      },
-      {
-        "text": "Carousel",
-        "is_correct": false
-      }
-    ]
+  "question_text": "How does Bubble Sort work?",
+  "explanation": "Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.",
+  "options": [
+  { "text": "By repeatedly finding the minimum element and moving it to the beginning.", "is_correct": false },
+  { "text": "By repeatedly swapping adjacent elements if they are in the wrong order.", "is_correct": true },
+  { "text": "By dividing the array into two halves and merging them.", "is_correct": false },
+  { "text": "By building the final sorted array one item at a time.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which of these is a form of quantitative usability testing?",
-    "explanation": "A/B testing compares performance metrics between two variants.",
-    "options": [
-      {
-        "text": "A/B Testing",
-        "is_correct": true
-      },
-      {
-        "text": "User interview",
-        "is_correct": false
-      },
-      {
-        "text": "Focus group",
-        "is_correct": false
-      },
-      {
-        "text": "Diary study",
-        "is_correct": false
-      }
-    ]
+  "question_text": "An optimization for Bubble Sort is to stop the algorithm if no swaps were made in a pass. Why is this beneficial?",
+  "explanation": "If a full pass is completed with no swaps, it means the array is already sorted, and there is no need to continue with further passes.",
+  "options": [
+  { "text": "It reduces the number of comparisons.", "is_correct": false },
+  { "text": "It guarantees a stable sort.", "is_correct": false },
+  { "text": "It allows the algorithm to terminate early if the array is sorted.", "is_correct": true },
+  { "text": "It improves the worst-case time complexity.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What is a ‘heuristic’ in UX?",
-    "explanation": "Heuristics are usability rules used to guide design and evaluation.",
-    "options": [
-      {
-        "text": "A code function",
-        "is_correct": true
-      },
-      {
-        "text": "A rule of thumb for usability",
-        "is_correct": false
-      },
-      {
-        "text": "An animation technique",
-        "is_correct": false
-      },
-      {
-        "text": "A database query",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the underlying principle of Insertion Sort?",
+  "explanation": "Insertion Sort builds the final sorted array one item at a time by taking an element from the unsorted part and inserting it into its correct position in the sorted part.",
+  "options": [
+  { "text": "Repeatedly swapping adjacent elements.", "is_correct": false },
+  { "text": "Building the final sorted array one item at a time.", "is_correct": true },
+  { "text": "Dividing the array and merging sorted halves.", "is_correct": false },
+  { "text": "Repeatedly selecting the minimum element.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What does ‘persona empathy map’ help to understand?",
-    "explanation": "Empathy maps visualize what users think, feel, hear, and say.",
-    "options": [
-      {
-        "text": "User technical skills",
-        "is_correct": true
-      },
-      {
-        "text": "User feelings and motivations",
-        "is_correct": false
-      },
-      {
-        "text": "User demographics",
-        "is_correct": false
-      },
-      {
-        "text": "Server uptime",
-        "is_correct": false
-      }
-    ]
+  "question_text": "What is the best-case time complexity of Insertion Sort?",
+  "explanation": "If the array is already sorted, Insertion Sort will only make one comparison for each element, resulting in a linear time complexity.",
+  "options": [
+  { "text": "O(n)", "is_correct": true },
+  { "text": "O(n log n)", "is_correct": false },
+  { "text": "O(n^2)", "is_correct": false },
+  { "text": "O(1)", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What is a ‘call to action’ (CTA)?",
-    "explanation": "CTAs prompt users to take specific actions like ‘Buy Now’",
-    "options": [
-      {
-        "text": "Error message",
-        "is_correct": true
-      },
-      {
-        "text": "Button prompting user action",
-        "is_correct": false
-      },
-      {
-        "text": "Loading spinner",
-        "is_correct": false
-      },
-      {
-        "text": "Navigation bar",
-        "is_correct": false
-      }
-    ]
+  "question_text": "Insertion Sort is considered an 'in-place' sorting algorithm because:",
+  "explanation": "An in-place algorithm is one that sorts the data within the original array, without requiring significant additional memory.",
+  "options": [
+  { "text": "It is very fast for small inputs.", "is_correct": false },
+  { "text": "It sorts the data within the original array, without requiring significant extra memory.", "is_correct": true },
+  { "text": "It is a stable sorting algorithm.", "is_correct": false },
+  { "text": "It works well for partially sorted arrays.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "Which method helps identify problems by watching users use a product?",
-    "explanation": "Usability testing involves real users performing tasks while being observed.",
-    "options": [
-      {
-        "text": "Heuristic evaluation",
-        "is_correct": false
-      },
-      {
-        "text": "Usability testing",
-        "is_correct": true
-      },
-      {
-        "text": "Survey",
-        "is_correct": false
-      },
-      {
-        "text": "A/B testing",
-        "is_correct": false
-      }
-    ]
+  "question_text": "In a single pass of Insertion Sort, what happens?",
+  "explanation": "In each pass, an element is taken from the unsorted section and inserted into its correct position in the already sorted section.",
+  "options": [
+  { "text": "The largest element 'bubbles up' to its correct position.", "is_correct": false },
+  { "text": "An element is placed into its correct sorted position in the subarray to its left.", "is_correct": true },
+  { "text": "Two sorted subarrays are merged.", "is_correct": false },
+  { "text": "A pivot element is chosen and the array is partitioned.", "is_correct": false }
+  ]
   },
   {
-    "question_text": "What does ‘progressive disclosure’ do?",
-    "explanation": "Progressive disclosure simplifies the interface by hiding complex features initially.",
-    "options": [
-      {
-        "text": "Shows all options at once",
-        "is_correct": true
-      },
-      {
-        "text": "Hides advanced options until needed",
-        "is_correct": false
-      },
-      {
-        "text": "Discloses bugs progressively",
-        "is_correct": false
-      },
-      {
-        "text": "Automatically saves data",
-        "is_correct": false
-      }
-    ]
+  "question_text": "When is Insertion Sort a good choice for a sorting algorithm?",
+  "explanation": "Insertion Sort is efficient for small datasets and for datasets that are already substantially sorted.",
+  "options": [
+  { "text": "For very large, randomly ordered datasets.", "is_correct": false },
+  { "text": "When the data is small or nearly sorted.", "is_correct": true },
+  { "text": "When memory usage is not a concern.", "is_correct": false },
+  { "text": "When a stable sort is not required.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "How does Selection Sort work?",
+  "explanation": "Selection Sort repeatedly finds the minimum element from the unsorted part of the array and puts it at the beginning of the unsorted part.",
+  "options": [
+  { "text": "By repeatedly swapping adjacent elements.", "is_correct": false },
+  { "text": "By building the final sorted array one item at a time.", "is_correct": false },
+  { "text": "By repeatedly finding the minimum element from the unsorted part and putting it at the beginning.", "is_correct": true },
+  { "text": "By dividing the array and merging sorted halves.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the time complexity of Selection Sort in all cases (best, average, and worst)?",
+  "explanation": "Selection Sort always scans the entire unsorted part to find the minimum element, regardless of the initial order of the data, resulting in a consistent O(n^2) complexity.",
+  "options": [
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(n log n)", "is_correct": false },
+  { "text": "O(n^2)", "is_correct": true },
+  { "text": "It varies depending on the input.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Is Selection Sort a stable sorting algorithm?",
+  "explanation": "Selection Sort is generally not stable because it can change the relative order of equal elements during the swapping process.",
+  "options": [
+  { "text": "Yes, always.", "is_correct": false },
+  { "text": "No, it is not stable.", "is_correct": true },
+  { "text": "It depends on the implementation.", "is_correct": false },
+  { "text": "Only for sorted arrays.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the primary advantage of Selection Sort?",
+  "explanation": "Selection Sort makes a maximum of n-1 swaps, which can be advantageous in scenarios where write operations are expensive.",
+  "options": [
+  { "text": "It is the fastest sorting algorithm.", "is_correct": false },
+  { "text": "It is a stable sort.", "is_correct": false },
+  { "text": "It performs the minimum number of swaps.", "is_correct": true },
+  { "text": "It works well for large datasets.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "After the first pass of a Selection Sort on the array [64, 25, 12, 22, 11], the array will be:",
+  "explanation": "In the first pass, Selection Sort finds the minimum element (11) and swaps it with the first element (64).",
+  "options": [
+  { "text": "[25, 64, 12, 22, 11]", "is_correct": false },
+  { "text": "[11, 25, 12, 22, 64]", "is_correct": true },
+  { "text": "[11, 12, 22, 25, 64]", "is_correct": false },
+  { "text": "[64, 11, 12, 22, 25]", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Heap Sort uses which underlying data structure?",
+  "explanation": "Heap Sort uses a binary heap to sort the elements. It first builds a max-heap from the input data and then repeatedly extracts the maximum element.",
+  "options": [
+  { "text": "Binary Search Tree", "is_correct": false },
+  { "text": "Stack", "is_correct": false },
+  { "text": "Queue", "is_correct": false },
+  { "text": "Binary Heap", "is_correct": true }
+  ]
+  },
+  {
+  "question_text": "What is the time complexity of Heap Sort in the worst case?",
+  "explanation": "Building the heap takes O(n) time, and each of the n extractions takes O(log n) time, resulting in an overall complexity of O(n log n).",
+  "options": [
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(n log n)", "is_correct": true },
+  { "text": "O(n^2)", "is_correct": false },
+  { "text": "O(log n)", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Is Heap Sort an in-place sorting algorithm?",
+  "explanation": "Heap Sort can be implemented as an in-place algorithm, as the heap can be built within the original array and the sorted elements can be placed at the end of the array.",
+  "options": [
+  { "text": "Yes", "is_correct": true },
+  { "text": "No", "is_correct": false },
+  { "text": "Only for max-heaps", "is_correct": false },
+  { "text": "Only for min-heaps", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "The process of rearranging the heap to maintain the heap property is called:",
+  "explanation": "'Heapify' is the process of converting a binary tree into a heap by adjusting the positions of the nodes to satisfy the heap property.",
+  "options": [
+  { "text": "Sorting", "is_correct": false },
+  { "text": "Heapifying", "is_correct": true },
+  { "text": "Pivoting", "is_correct": false },
+  { "text": "Merging", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "In a max-heap, the value of a parent node is always:",
+  "explanation": "The defining property of a max-heap is that the value of each node is greater than or equal to the values of its children.",
+  "options": [
+  { "text": "Less than or equal to its children.", "is_correct": false },
+  { "text": "Equal to its children.", "is_correct": false },
+  { "text": "Greater than or equal to its children.", "is_correct": true },
+  { "text": "Half the value of its children.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Merge Sort is an example of which algorithmic paradigm?",
+  "explanation": "Merge Sort is a classic divide and conquer algorithm. It divides the array into two halves, recursively sorts them, and then merges the sorted halves.",
+  "options": [
+  { "text": "Greedy algorithm", "is_correct": false },
+  { "text": "Dynamic programming", "is_correct": false },
+  { "text": "Divide and conquer", "is_correct": true },
+  { "text": "Brute force", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the time complexity of Merge Sort in all cases?",
+  "explanation": "Merge Sort consistently divides the array in half and merges, leading to a time complexity of O(n log n) regardless of the initial order of the data.",
+  "options": [
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(n log n)", "is_correct": true },
+  { "text": "O(n^2)", "is_correct": false },
+  { "text": "It varies based on the input.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is a major disadvantage of Merge Sort?",
+  "explanation": "The standard implementation of Merge Sort requires a temporary array of the same size as the input to merge the sorted halves, resulting in O(n) space complexity.",
+  "options": [
+  { "text": "It is not a stable sort.", "is_correct": false },
+  { "text": "It has a poor worst-case performance.", "is_correct": false },
+  { "text": "It requires extra memory space for merging.", "is_correct": true },
+  { "text": "It is not efficient for small datasets.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "The 'merge' step in Merge Sort involves:",
+  "explanation": "The core of Merge Sort is the merge step, where two already sorted subarrays are combined into a single sorted array.",
+  "options": [
+  { "text": "Selecting a pivot element.", "is_correct": false },
+  { "text": "Combining two sorted subarrays into one sorted array.", "is_correct": true },
+  { "text": "Finding the minimum element.", "is_correct": false },
+  { "text": "Swapping adjacent elements.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Is Merge Sort a stable sorting algorithm?",
+  "explanation": "Merge Sort is a stable sorting algorithm because the relative order of equal elements is preserved during the merging process.",
+  "options": [
+  { "text": "Yes", "is_correct": true },
+  { "text": "No", "is_correct": false },
+  { "text": "Only if the data is already partially sorted.", "is_correct": false },
+  { "text": "It depends on the implementation of the merge step.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Quick Sort is based on which algorithmic paradigm?",
+  "explanation": "Quick Sort is a divide and conquer algorithm that works by partitioning the array around a pivot element.",
+  "options": [
+  { "text": "Greedy algorithm", "is_correct": false },
+  { "text": "Dynamic programming", "is_correct": false },
+  { "text": "Divide and conquer", "is_correct": true },
+  { "text": "Brute force", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the worst-case time complexity of Quick Sort?",
+  "explanation": "The worst case for Quick Sort occurs when the pivot selection consistently results in highly unbalanced partitions, leading to O(n^2) complexity.",
+  "options": [
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(n log n)", "is_correct": false },
+  { "text": "O(n^2)", "is_correct": true },
+  { "text": "O(log n)", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "The element around which the array is partitioned in Quick Sort is called the:",
+  "explanation": "The pivot is a chosen element from the array that is used to partition the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.",
+  "options": [
+  { "text": "Median", "is_correct": false },
+  { "text": "Pivot", "is_correct": true },
+  { "text": "Key", "is_correct": false },
+  { "text": "Anchor", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is a major advantage of Quick Sort over Merge Sort?",
+  "explanation": "Quick Sort is an in-place sorting algorithm, meaning it doesn't require the extra O(n) space that Merge Sort needs for its merge operation.",
+  "options": [
+  { "text": "It is a stable sort.", "is_correct": false },
+  { "text": "It has a better worst-case time complexity.", "is_correct": false },
+  { "text": "It is an in-place sorting algorithm.", "is_correct": true },
+  { "text": "It is easier to implement.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "A good choice for the pivot in Quick Sort is:",
+  "explanation": "Choosing a random pivot or the median-of-three helps to avoid the worst-case scenario and makes a balanced partition more likely.",
+  "options": [
+  { "text": "Always the first element.", "is_correct": false },
+  { "text": "Always the last element.", "is_correct": false },
+  { "text": "A random element or the median-of-three.", "is_correct": true },
+  { "text": "The smallest element in the array.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the defining characteristic of a Set?",
+  "explanation": "A Set is a collection that contains no duplicate elements. Each element in a Set must be unique.",
+  "options": [
+  { "text": "It maintains the insertion order of elements.", "is_correct": false },
+  { "text": "It allows duplicate elements.", "is_correct": false },
+  { "text": "It contains no duplicate elements.", "is_correct": true },
+  { "text": "It stores key-value pairs.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Which of the following operations is efficiently supported by a Set?",
+  "explanation": "Sets are optimized for fast membership testing, i.e., checking if an element is present in the set.",
+  "options": [
+  { "text": "Accessing an element by its index.", "is_correct": false },
+  { "text": "Checking for the presence of an element.", "is_correct": true },
+  { "text": "Retrieving the first element inserted.", "is_correct": false },
+  { "text": "Sorting the elements.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the result of adding a duplicate element to a Set?",
+  "explanation": "If you attempt to add an element that is already in the Set, the operation will be ignored, and the Set will remain unchanged.",
+  "options": [
+  { "text": "It throws an error.", "is_correct": false },
+  { "text": "The set remains unchanged.", "is_correct": true },
+  { "text": "It replaces the existing element.", "is_correct": false },
+  { "text": "It creates a new set with the duplicate.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Which of the following is a common use case for a Set?",
+  "explanation": "Sets are ideal for finding the unique elements from a collection of items that may contain duplicates.",
+  "options": [
+  { "text": "Implementing a LIFO data structure.", "is_correct": false },
+  { "text": "Storing a mapping from keys to values.", "is_correct": false },
+  { "text": "Finding all unique elements from a list.", "is_correct": true },
+  { "text": "Maintaining a sorted collection of elements.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "The union of two sets results in:",
+  "explanation": "The union of two sets is a new set containing all the elements that are in either of the original sets, with duplicates removed.",
+  "options": [
+  { "text": "A set containing only the elements common to both sets.", "is_correct": false },
+  { "text": "A set containing all elements from both sets, without duplicates.", "is_correct": true },
+  { "text": "A set containing elements from the first set that are not in the second.", "is_correct": false },
+  { "text": "A list of all elements from both sets, including duplicates.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is a HashSet?",
+  "explanation": "A HashSet is a specific implementation of a Set that uses a hash table to store its elements, providing fast add, remove, and contains operations.",
+  "options": [
+  { "text": "A set that maintains the insertion order of elements.", "is_correct": false },
+  { "text": "A set that is implemented using a hash table.", "is_correct": true },
+  { "text": "A set that automatically sorts its elements.", "is_correct": false },
+  { "text": "A set that can contain duplicate elements.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the average time complexity for adding an element to a HashSet?",
+  "explanation": "Due to the use of a hash table, adding an element to a HashSet is typically a constant time operation on average.",
+  "options": [
+  { "text": "O(1)", "is_correct": true },
+  { "text": "O(log n)", "is_correct": false },
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(n log n)", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Does a HashSet guarantee the order of its elements?",
+  "explanation": "A HashSet does not maintain any specific order of its elements. The order can change over time as more elements are added.",
+  "options": [
+  { "text": "Yes, it maintains insertion order.", "is_correct": false },
+  { "text": "Yes, it maintains natural sorted order.", "is_correct": false },
+  { "text": "No, it does not guarantee any order.", "is_correct": true },
+  { "text": "Yes, it maintains reverse sorted order.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is a potential issue when using a HashSet that you should be aware of?",
+  "explanation": "Hash collisions occur when two different keys hash to the same bucket. While handled internally, a large number of collisions can degrade the performance of a HashSet.",
+  "options": [
+  { "text": "It cannot store null values.", "is_correct": false },
+  { "text": "It is not thread-safe.", "is_correct": false },
+  { "text": "Hash collisions can affect performance.", "is_correct": true },
+  { "text": "It has a fixed capacity.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "A HashSet is most suitable for which of the following scenarios?",
+  "explanation": "The main strength of a HashSet is its ability to quickly check if an element is present in a large collection of items.",
+  "options": [
+  { "text": "When you need to iterate through elements in a specific order.", "is_correct": false },
+  { "text": "When you need fast lookups to see if an item exists in a collection.", "is_correct": true },
+  { "text": "When you need to store key-value pairs.", "is_correct": false },
+  { "text": "When you need a data structure that allows duplicate elements.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What does a Map data structure store?",
+  "explanation": "A Map is a collection of key-value pairs, where each key is unique and is used to retrieve the corresponding value.",
+  "options": [
+  { "text": "Only unique elements.", "is_correct": false },
+  { "text": "Elements in a sorted order.", "is_correct": false },
+  { "text": "Key-value pairs.", "is_correct": true },
+  { "text": "Elements in a LIFO order.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "In a Map, keys must be:",
+  "explanation": "Each key in a Map must be unique to ensure that there is a one-to-one mapping between a key and its value.",
+  "options": [
+  { "text": "Unique", "is_correct": true },
+  { "text": "Of the same data type as the values.", "is_correct": false },
+  { "text": "Integers only.", "is_correct": false },
+  { "text": "Mutable objects.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Which operation is used to retrieve a value from a Map given its key?",
+  "explanation": "The 'get' operation takes a key as input and returns the associated value from the Map.",
+  "options": [
+  { "text": "find()", "is_correct": false },
+  { "text": "get()", "is_correct": true },
+  { "text": "retrieve()", "is_correct": false },
+  { "text": "lookUp()", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What happens if you try to insert a key-value pair into a Map with a key that already exists?",
+  "explanation": "If a key already exists in the Map, inserting a new value with the same key will overwrite the old value.",
+  "options": [
+  { "text": "It throws an error.", "is_correct": false },
+  { "text": "It creates a new entry with the same key.", "is_correct": false },
+  { "text": "It updates the value associated with the existing key.", "is_correct": true },
+  { "text": "The new entry is ignored.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Which of the following is a suitable use case for a Map?",
+  "explanation": "Maps are perfect for situations where you need to look up information based on a unique identifier, such as finding a student's details using their ID number.",
+  "options": [
+  { "text": "Storing the Browse history of a user.", "is_correct": false },
+  { "text": "Implementing a print queue.", "is_correct": false },
+  { "text": "Storing student information with their unique roll numbers as keys.", "is_correct": true },
+  { "text": "Finding the shortest path in a graph.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "A HashMap is an implementation of which data structure?",
+  "explanation": "A HashMap is a specific implementation of the Map interface that uses a hash table to store its key-value pairs.",
+  "options": [
+  { "text": "Set", "is_correct": false },
+  { "text": "List", "is_correct": false },
+  { "text": "Map", "is_correct": true },
+  { "text": "Queue", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the average time complexity for retrieving a value from a HashMap?",
+  "explanation": "Thanks to the use of a hash table, retrieving a value from a HashMap by its key is, on average, a constant time operation.",
+  "options": [
+  { "text": "O(1)", "is_correct": true },
+  { "text": "O(log n)", "is_correct": false },
+  { "text": "O(n)", "is_correct": false },
+  { "text": "O(n log n)", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Does a HashMap guarantee the order of its key-value pairs?",
+  "explanation": "A standard HashMap does not maintain any specific order for its entries. The order may appear random and can change.",
+  "options": [
+  { "text": "Yes, it maintains insertion order.", "is_correct": false },
+  { "text": "Yes, it maintains the natural order of the keys.", "is_correct": false },
+  { "text": "No, it does not guarantee any order.", "is_correct": true },
+  { "text": "Yes, it maintains the order based on the hash values.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "In a HashMap, a good hash function is important because:",
+  "explanation": "A good hash function distributes keys evenly across the hash table, minimizing collisions and ensuring good performance.",
+  "options": [
+  { "text": "It ensures the keys are stored in a sorted order.", "is_correct": false },
+  { "text": "It minimizes hash collisions and improves performance.", "is_correct": true },
+  { "text": "It guarantees that no null keys are allowed.", "is_correct": false },
+  { "text": "It allows for duplicate keys.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "When would a HashMap be a better choice than a TreeMap?",
+  "explanation": "If you don't need the elements to be sorted and your primary requirement is fast insertion and retrieval, a HashMap is generally more efficient than a TreeMap.",
+  "options": [
+  { "text": "When you need the key-value pairs to be sorted by key.", "is_correct": false },
+  { "text": "When you need fast insertion and retrieval and don't need a sorted order.", "is_correct": true },
+  { "text": "When you need to allow duplicate keys.", "is_correct": false },
+  { "text": "When you have a very small number of entries.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is the main purpose of a hash table?",
+  "explanation": "A hash table is designed to provide very fast access to data by using a hash function to map keys to indices in an array.",
+  "options": [
+  { "text": "To store data in a sorted order.", "is_correct": false },
+  { "text": "To enable efficient search, insertion, and deletion of data.", "is_correct": true },
+  { "text": "To implement a LIFO data structure.", "is_correct": false },
+  { "text": "To store data in a hierarchical structure.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "What is a hash collision in a hash table?",
+  "explanation": "A hash collision occurs when the hash function generates the same index (or hash) for two different keys.",
+  "options": [
+  { "text": "When two keys have the same value.", "is_correct": false },
+  { "text": "When two different keys map to the same hash value.", "is_correct": true },
+  { "text": "When a key is not found in the table.", "is_correct": false },
+  { "text": "When the hash table is full.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "Which of the following is a common technique for resolving hash collisions?",
+  "explanation": "Chaining is a widely used collision resolution technique where a linked list is used to store multiple elements that hash to the same slot.",
+  "options": [
+  { "text": "Re-sorting the table.", "is_correct": false },
+  { "text": "Deleting the colliding element.", "is_correct": false },
+  { "text": "Chaining (using linked lists).", "is_correct": true },
+  { "text": "Ignoring the new element.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "The performance of a hash table is highly dependent on:",
+  "explanation": "A well-designed hash function that distributes keys evenly is crucial for the efficient operation of a hash table.",
+  "options": [
+  { "text": "The size of the keys.", "is_correct": false },
+  { "text": "The quality of the hash function.", "is_correct": true },
+  { "text": "The initial order of the data.", "is_correct": false },
+  { "text": "The number of duplicate values.", "is_correct": false }
+  ]
+  },
+  {
+  "question_text": "In the context of hash tables, what is the 'load factor'?",
+  "explanation": "The load factor is the ratio of the number of elements in the hash table to the number of available slots. It is a measure of how full the table is.",
+  "options": [
+  { "text": "The average number of elements in a chain.", "is_correct": false },
+  { "text": "The ratio of the number of elements to the size of the hash table.", "is_correct": true },
+  { "text": "The number of collisions that have occurred.", "is_correct": false },
+  { "text": "The time it takes to perform a hash lookup.", "is_correct": false }
+  ]
   }
-]
+  ]

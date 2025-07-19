@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 const dbConfig = {
   host: 'localhost',
   user: 'root',
-  password: 'qz5tjx',
+  password: 'M@see2005',
   database: 'quiz'
 };
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Instant Feedback Quiz</title>
-   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style>
     #feedback.fade-in {
       animation: fadeIn 0.4s ease forwards;
@@ -135,13 +135,19 @@
       if (result.isCorrect) correctCount++;
 
       feedbackDiv.innerHTML = `
-        <p class="font-semibold">
-          Your answer is 
-          <span class="${result.isCorrect ? 'text-green-700' : 'text-red-700'}">
-            ${result.isCorrect ? 'Correct ✅' : 'Wrong ❌'}
+        <div class="flex items-center mb-2">
+          <span class="text-1xl mr-2 ${result.isCorrect ? 'text-green-600' : 'text-red-600'}">
+            ${result.isCorrect ? '✅' : '❌'}
           </span>
-        </p>
-        <p class="mt-2 italic text-gray-700">Explanation: ${result.explanation}</p>
+          <p class="text-lg font-semibold ${result.isCorrect ? 'text-green-700' : 'text-red-700'}">
+            Your answer is ${result.isCorrect ? 'Correct' : 'Wrong'}
+          </p>
+        </div>
+        <div class="border-l-4 pl-4 border-lime-200 bg-indigo-50 py-2 px-3 rounded-md">
+          <p class="text-m text-gray-800 leading-relaxed">
+            <span class="font-semibold text-lime-700">Explanation:</span> ${result.explanation}
+          </p>
+        </div>
       `;
 
       feedbackDiv.classList.remove('hidden');
